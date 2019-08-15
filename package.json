@@ -1,0 +1,54 @@
+{
+  "name": "github-search-hooks-apollo-typescript",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/index.tsx",
+  "dependencies": {
+    "@types/antd": "^1.0.0",
+    "@types/dotenv": "^6.1.1",
+    "@types/graphql": "^14.2.3",
+    "@types/history": "^4.7.2",
+    "@types/hookrouter": "^2.2.1",
+    "@types/react": "16.8.7",
+    "@types/react-dom": "^16.8.2",
+    "@types/react-spinkit": "^3.0.5",
+    "antd": "^3.20.7",
+    "apollo-cache-inmemory": "^1.6.2",
+    "apollo-client": "^2.6.3",
+    "apollo-link": "^1.2.12",
+    "apollo-link-rest": "^0.7.3",
+    "dotenv": "^8.0.0",
+    "graphql": "^14.4.2",
+    "graphql-anywhere": "^4.2.4",
+    "graphql-tag": "^2.10.1",
+    "history": "^4.9.0",
+    "hookrouter": "^1.2.3",
+    "qs": "^6.7.0",
+    "react": "16.8.4",
+    "react-apollo": "^2.5.8",
+    "react-dom": "16.8.4",
+    "react-scripts": "3.0.1",
+    "react-spinkit": "^3.0.0",
+    "react-test-renderer": "^16.8.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "test:debug": "react-scripts --inspect-brk test --runInBand",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.9",
+    "@types/node": "^10.12.5",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "typescript": "^3.1.6"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

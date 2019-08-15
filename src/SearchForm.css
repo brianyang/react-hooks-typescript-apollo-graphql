@@ -1,0 +1,63 @@
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.row .ant-form-item {
+  width: 100%;
+  margin: 0 1rem;
+}
+
+.ant-select-selection.ant-select-selection--single {
+  border-color: #4b5050;
+  height: 3rem;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+}
+.ant-select.ant-select-enabled {
+  padding: 0 !important;
+  position: relative;
+  top: -10px;
+}
+span.ant-form-item-children {
+  font-size: 0.6rem;
+}
+.ant-checkbox .ant-checkbox-inner {
+  height: 30px;
+  width: 30px;
+  border-color: #4b5050;
+  margin-right: 10px;
+}
+.row button.ant-btn.ant-btn-primary {
+  padding: 2rem;
+  padding-top: 0.7rem;
+  padding-bottom: 1.55rem;
+  padding-left: 2.2rem;
+  padding-right: 2.2rem;
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  margin-top:10px;
+  margin-bottom:20px;
+}
+.ant-checkbox .ant-checkbox-inner::after {
+  left: 34%;
+}
+
+@media (min-width: 640px) {
+  .row .ant-form-item {
+    min-width: 240px;
+    width: auto;
+    margin: 0 3rem;
+  }
+}

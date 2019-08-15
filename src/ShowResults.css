@@ -1,0 +1,68 @@
+.ant-card.ant-card-bordered {
+  margin: 1rem 0;
+  border-color: #95989a;
+}
+.ant-card .ant-card-body {
+  display: flex;
+  padding: 0;
+}
+.ant-card-body .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: normal;
+  justify-content: normal;
+}
+.first-col.col {
+  width: 100%;
+  max-width: none;
+  text-align: left;
+}
+.col {
+  width: 100%;
+  text-align: left;
+  border-top: 1px solid #95989a;
+  padding: 20px;
+  padding-top: 22px;
+}
+.col > div {
+  margin-top: 10px;
+}
+.col .item-val {
+  display: inline;
+}
+
+.col .ant-tag {
+  border-radius: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+@media (min-width: 640px) {
+  .first-col.col {
+    width: 70%;
+    position: relative;
+  }
+  .col {
+    max-width: 15%;
+    min-width: 15%;
+    width: auto;
+    text-align: center;
+    border-top: none;
+    border-left: 1px solid #95989a;
+  }
+
+  .row .ant-form-item {
+    min-width: 240px;
+    width: auto;
+    margin: 0 3rem;
+  }
+  .row {
+    flex-direction: column;
+  }
+
+  .col .item-val {
+    display: block;
+  }
+}

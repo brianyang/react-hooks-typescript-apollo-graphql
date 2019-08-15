@@ -1,0 +1,25 @@
+.title {
+  text-align: center;
+  font-size: 1.7rem;
+  font-style: normal;
+  line-height: 2rem;
+  font-family: Arial;
+}
+
+.ant-layout-content .title {
+  margin-top: 20px;
+}
+.ant-layout-footer {
+  text-align: center;
+}
+
+.title span {
+  display: block;
+}
+
+@media (min-width: 640px) {
+  .title span {
+    display: inline;
+    margin:0 .5rem;
+  }
+}
